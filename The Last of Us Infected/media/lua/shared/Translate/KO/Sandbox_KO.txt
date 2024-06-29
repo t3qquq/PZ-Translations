@@ -1,0 +1,109 @@
+Sandbox_KO = {
+	/* Page names */
+	Sandbox_TLOU_infected = "The Last of Us Infected",
+	Sandbox_TLOU_infected_stats = "The Last of Us Infected [감염자 스탯]",
+	Sandbox_TLOU_infected_customBehavior = "The Last of Us Infected [행동 커스텀]",
+	Sandbox_TLOU_infected_other = "The Last of Us Infected [기타]",
+
+	/* Zomboid Forge zombie spawns */
+	Sandbox_TLOU_RunnerSpawn = "러너 스폰",
+	Sandbox_TLOU_RunnerSpawn_tooltip = "러너는 최근에 균사체에 감염된 빠르고 위험한 감염자입니다. 엄청난 속도와 숫자로 생존자들을 빠르게 전멸시킬 수 있습니다. <BR> 의식은 존재하지만 자신의 신체를 통제할 수 없는 감염자들의 신음과 몸부림을 느낄 수 있을지도 모릅니다. <BR> <IMAGECENTRE:media/ui/runner.png> <LINE>",
+	Sandbox_TLOU_RunnerSpawnWeight = "러너 스폰 비율",
+
+	Sandbox_TLOU_StalkerSpawn = "스토커 스폰",
+	Sandbox_TLOU_StalkerSpawn_tooltip = "스토커는 균사체가 숙주의 몸을 완전히 장악하여 러너에서 진화한 개체입니다. 일반 러너들보다 더 빠르고 강하며, 건물 내부에 잠복하다가 생존자를 습격하기도 합니다. <BR> 숙주는 균사체와의 싸움에 굴복했을 가능성이 높으며, 몸부림 속 신음소리는 점차 특유의 딸깍 소리로 바뀌어 갈 것입니다. <BR> <IMAGECENTRE:media/ui/stalker.png> <LINE>",
+	Sandbox_TLOU_StalkerSpawnWeight = "스토커 스폰 비율",
+
+	Sandbox_TLOU_ClickerSpawn = "클리커 스폰",
+	Sandbox_TLOU_ClickerSpawn_tooltip = "클리커는 스토커였던 감염자가 보다 위협적으로 진화한 개체입니다. 비인간적인 힘으로 인해 접근조차 위험하며, 단 몇초만에 생존자를 살해할 수 있습니다. <BR> 감염으로 눈을 잃었지만 딸깍 소리를 통해 주변 상황을 탐지할 수 있습니다. <BR> 다행히 변화로 인해 러너와 스토커보다 느리지만, 가까이 접근하면 예측하기 어려운 움직임으로 생존자를 붙잡아 죽일것입니다. <BR> <IMAGECENTRE:media/ui/clicker.png> <LINE>",
+	Sandbox_TLOU_ClickerSpawnWeight = "클리커 스폰 비율",
+
+	Sandbox_TLOU_BloaterSpawn = "블로터 스폰",
+	Sandbox_TLOU_BloaterSpawn_tooltip = "블로터는 그 희귀함으로 인해 도시전설처럼 취급되는 감염체입니다. 클리커가 수 년동안 그 몸과 포자를 유지한 채 생존하는데 성공하면, 딱딱하게 굳은 곰팡이를 갑옷처럼 입은 거대한 괴물로 진화하게 됩니다. <BR> 이 괴물에게 붙잡히면 일어날 일에 대하여 궁금해하는 사람은 아무도 없으며, 생각할 필요도 없습니다. <BR> <IMAGECENTRE:media/ui/bloater.png> <LINE>",
+	Sandbox_TLOU_BloaterSpawnWeight = "블로터 스폰 비율",
+
+
+	/* Infected Stats */
+	Sandbox_TLOU_RunnerStrength = "러너 근력",
+	Sandbox_TLOU_RunnerToughness = "러너 체력",
+	Sandbox_TLOU_RunnerVision = "러너 시야",
+	Sandbox_TLOU_RunnerHearing = "러너 청력",
+	Sandbox_TLOU_RunnerHP = "러너 체력 배율",
+	Sandbox_TLOU_RunnerHP_tooltip = "러너 체력 배율",
+
+	Sandbox_TLOU_StalkerVision = "스토커 시야",
+	Sandbox_TLOU_StalkerHearing = "스토커 청력",
+	Sandbox_TLOU_StalkerHP = "스토커 체력 배율",
+
+	Sandbox_TLOU_ClickerHearing = "클리커 청력",
+	Sandbox_TLOU_ClickerHP = "클리커 체력 배율",
+
+	Sandbox_TLOU_BloaterHearing = "블로터 청력",
+	Sandbox_TLOU_BloaterHP = "블로터 체력 배율",
+
+
+	/* Dangerous Clickers */
+	Sandbox_TLOU_NoPushClickers = "클리커 밀치기/밟기 불가",
+	Sandbox_TLOU_NoPushClickers_tooltip = "클리커를 밀거나 밟아서 처치할 수 없도록 합니다.",
+
+	Sandbox_TLOU_GrabbyClickers = "붙잡는 클리커",
+	Sandbox_TLOU_GrabbyClickers_tooltip = "클리커가 플레이어를 움직이지 못하도록 붙잡을 수 있습니다. 타이밍을 잘 맞추면 단검을 사용해 탈출할 수 있습니다. 밸런스를 위해 기본적으로 비활성화 되어있지만, 더 어려운 난이도를 원한다면 도전해보세요.",
+
+	Sandbox_TLOU_OneShotClickers = "클리커 즉사기 사용",
+	Sandbox_TLOU_OneShotClickers_tooltip = "클리커가 당신을 한 방에 죽입니다. 가장 까다로운 특성입니다.",
+
+
+	/* Strong Bloaters */
+	Sandbox_TLOU_StrongBloater = "강한 블로터",
+	Sandbox_TLOU_StrongBloater_tooltip = "블로터가 체급으로 밀어붙여 구조물을 순식간에 파괴합니다. 바리케이트, 문, 창문 또는 플레이어가 만든 구조물에만 영향을 줍니다.",
+
+
+	/* Extra fire damage */
+	Sandbox_TLOU_ExtraFireDamage_Clicker = "클리커 가연성",
+	Sandbox_TLOU_ExtraFireDamage_Clicker_tooltip = " 클리커에게 불이 붙으면 갑피가 벗겨져 방어력이 낮아집니다.",
+
+	Sandbox_TLOU_ExtraFireDamage_Bloater = "블로터 가연성",
+	Sandbox_TLOU_ExtraFireDamage_Bloater_tooltip = "블로터에게 불이 붙으면 갑피가 벗겨져 방어력이 낮아집니다.",
+
+	Sandbox_TLOU_ExtraFireDamage = "추가 화염 데미지 배율",
+	Sandbox_TLOU_ExtraFireDamage_tooltip = "불에 붙은 상태에서의 데미지 배율을 설정합니다. 균사체 감염자는 불에 취약하며, 불에 붙은 경우 기본데미지가 3배로 적용됩니다. <BR> 예를들어, 기본 체력으로 설정된 블로터를 처치하려면 샷건 ~20발 정도가 필요합니다. 하지만 불이 붙은 경우 ~7발 정도로 줄어듭니다.",
+
+
+	/* Hide Indoors */
+	Sandbox_TLOU_HideIndoors = "실내에 숨기",
+	Sandbox_TLOU_HideIndoors_tooltip = "러너를 제외한 대부분의 감염자들은 태양을 피해 건물 구석 어두운 곳으로 숨으려는 경향이 있습니다. 따라서 건물 내부를 탐사하는 것이 길을 따라 탐색하는 것에 비해 상대적으로 위험합니다. 탐색 시 주변 환경을 주의하세요.",
+
+	Sandbox_TLOU_OnlyUnexplored = "미탐사 지역에만 숨기",
+	Sandbox_TLOU_OnlyUnexplored_tooltip = "감염자들이 아직 탐사하지 않은 지역에만 숨습니다. 비활성화시 생존자의 집에 깜짝 방문이 있을수도 있습니다. 지역의 모든 건물을 탐색했다면 모든 유형의 감염자들이 길거리를 배회할것이라는 의미이기도 합니다. 썩 유쾌한 상황은 아니겠죠.",
+
+	Sandbox_TLOU_WanderAtNight = "야간에 배회하기",
+	Sandbox_TLOU_WanderAtNight_tooltip = "감염자들이 태양을 피하려고 하듯이, 밤이 되면 러너를 제외한 다른 유형의 감염자들이 실외로 돌아다닙니다. 실내에 숨기 옵션이 비활성화 되어있으면 아무런 역할도 하지 않는 옵션입니다.",
+
+	Sandbox_TLOU_MaxDistanceToCheck = "건물 탐지 거리 [타일 단위]",
+	Sandbox_TLOU_MaxDistanceToCheck_tooltip = "감염자가 건물을 인지할 수 있는 최대 거리를 설정합니다. 값이 커질수록 성능에 영향이 갈 수 있습니다. (성능에 어느정도 영향을 미치는지는 알 수 없음)",
+
+	Sandbox_TLOU_HideIndoorsUpdates = "실내에 숨기 갱신 [인게임 시간(분)]",
+	Sandbox_TLOU_HideIndoorsUpdates_tooltip = "감염자들이 돌아다닐 건물을 확인하거나 밤에 밖으로 나가려고 하는 빈도를 설정합니다. 너무 낮게 설정하면 안되지만, 그렇다고 너무 높게 설정하면 건물 안으로 들어가거나 밤에 밖으로 나와 돌아다니려고 시도하지 않을것입니다. 적당히 높게 설정하면 총이나 알람같은 이벤트 사운드에 반응하여 밖으로 나와 돌아다니도록 설정할 수도 있습니다.",
+
+
+	/* Vaulting Infected */
+	Sandbox_TLOU_VaultingInfected = "러너, 스토커가 장애물을 뛰어넘음",
+	Sandbox_TLOU_VaultingInfected_tooltip = "러너와 스토커가 울타리를 뛰어넘을 수 있게되며, 지고 더 위협적으로 변하고 울타리를 사용한 꼼수가 힘들어집니다.",
+
+
+	/* Mod compatibility: Cordyceps Spore Zones */
+	Sandbox_TLOU_CordycepsSpawn = "균사체 루팅 가능",
+	Sandbox_TLOU_CordycepsSpawn_tooltip = "사살한 감염자 시체에서 브레이븐의 동충하초 포자 구역 모드에 나오는 동충하초 균사체를 획득할 수 있습니다. 브레이븐의 동충하초 포자 구역이 설치된 경우에만 작동합니다.",
+
+	Sandbox_TLOU_CordycepsSpawnRate_Runner = "러너 동충하초 균사체 드롭 확률 [퍼센트]",
+	Sandbox_TLOU_CordycepsSpawnRate_Runner_tooltip = "동충하초 균사체 루팅 가능 옵션 활성화 시 드롭 확률을 설정합니다.",
+
+	Sandbox_TLOU_CordycepsSpawnRate_Stalker = "스토커 동충하초 균사체 드롭 확률 [퍼센트]",
+	Sandbox_TLOU_CordycepsSpawnRate_Stalker_tooltip = "동충하초 균사체 루팅 가능 옵션 활성화 시 드롭 확률을 설정합니다.",
+
+	Sandbox_TLOU_CordycepsSpawnRate_Clicker = "클리커 동충하초 균사체 드롭 확률 [퍼센트]",
+	Sandbox_TLOU_CordycepsSpawnRate_Clicker_tooltip = "동충하초 균사체 루팅 가능 옵션 활성화 시 드롭 확률을 설정합니다.",
+
+	Sandbox_TLOU_CordycepsSpawnRate_Bloater = "블로터 동충하초 균사체 드롭 확률 [퍼센트]",
+	Sandbox_TLOU_CordycepsSpawnRate_Bloater_tooltip = "동충하초 균사체 루팅 가능 옵션 활성화 시 드롭 확률을 설정합니다.",
+}

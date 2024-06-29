@@ -1,0 +1,42 @@
+Sandbox_KO = {
+	/* Page names */
+	Sandbox_ZomboidForge = "Zomboid Forge",
+	Sandbox_ZomboidForge_Stats = "Zomboid Forge [Zomboid 스탯]",
+
+
+	/* Nametags */
+	Sandbox_ZomboidForge_nametags = "좀비 네임태그 활성화",
+	Sandbox_ZomboidForge_nametags_tooltip = "활성화 시 좀비의 네임태그를 볼 수 있으며, 비활성화시 네임태그를 볼 수 없습니다. 활성화 해도 모드 옵션을 통하여 각 플레이어별로 이름표 활성화 여부를 선택할 수 있습니다. <BR> <IMAGECENTRE:media/ui/nametag_example.png> <LINE>",
+
+	Sandbox_ZomboidForge_SpawnWeightExplanation = "스폰 비율 설명",
+	Sandbox_ZomboidForge_SpawnWeightExplanation_tooltip = "[기능 없음] <BR> Zomboid Forge는 좀비의 스폰량 자체는 건드리지 않지만, 대신 각 좀비 종류별 스폰 비율을 조절할 수 있습니다. <BR> 좀비 종류별 스폰 비율 공식은 다음과 같습니다: <LINE> <IMAGECENTRE:media/ui/formula.png,100,36> <LINE> 특정 종류의 좀비 비율 값이 커지면, 해당 유형의 좀비가 스폰될 확률이 늘어나고 다른 유형의 좀비가 스폰될 확률은 줄어듭니다. <BR> 좀비 종류 비활성화 시, 위 공식의 가중치 합에 가중치가 포함되지 않습니다.",
+
+	/* Enum options */
+	Sandbox_ZF_WalktypeEnum_option1 = "달림",
+	Sandbox_ZF_WalktypeEnum_option2 = "빠른 걸음",
+	Sandbox_ZF_WalktypeEnum_option3 = "느린 걸음",
+
+	Sandbox_ZF_StrengthEnum_option1 = "초인적",
+	Sandbox_ZF_StrengthEnum_option2 = "보통",
+	Sandbox_ZF_StrengthEnum_option3 = "약함",
+
+	Sandbox_ZF_ToughnessEnum_option1 = "튼튼함",
+	Sandbox_ZF_ToughnessEnum_option2 = "보통",
+	Sandbox_ZF_ToughnessEnum_option3 = "약함",
+
+	Sandbox_ZF_CognitionEnum_option1 = "추적 + 문 사용",
+	Sandbox_ZF_CognitionEnum_option2 = "추적",
+	Sandbox_ZF_CognitionEnum_option3 = "어설픈 추적",
+
+	Sandbox_ZF_MemoryEnum_option1 = "장시간",
+	Sandbox_ZF_MemoryEnum_option2 = "보통",
+	Sandbox_ZF_MemoryEnum_option3 = "짧음",
+
+	Sandbox_ZF_EyesightEnum_option1 = "매의 눈",
+	Sandbox_ZF_EyesightEnum_option2 = "보통",
+	Sandbox_ZF_EyesightEnum_option3 = "잘 안 보임",
+
+	Sandbox_ZF_HearingEnum_option1 = "귀신같이 들림",
+	Sandbox_ZF_HearingEnum_option2 = "보통",
+	Sandbox_ZF_HearingEnum_option3 = "잘 안 들림",
+}

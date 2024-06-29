@@ -1,0 +1,7 @@
+IGUI_KO = {
+    -- infected types names
+	IGUI_TLOU_Runner = "러너",
+    IGUI_TLOU_Stalker = "스토커",
+    IGUI_TLOU_Clicker = "클리커",
+    IGUI_TLOU_Bloater = "블로터",
+}

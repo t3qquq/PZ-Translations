@@ -1,0 +1,16 @@
+Sandbox_KO = {
+	/* Zomboid spawn and weight */
+	Sandbox_ZomboidForge_zomboidSpawn = "Zomboids 스폰",
+	Sandbox_ZomboidForge_zomboidSpawn_tooltip = "Zomboids는 게임 내 기본 좀비를 말합니다. Zomboid Forge [Zomboid 스탯] 샌드박스 옵션 페이지에서 스탯을 조절할 수 있습니다.",
+	Sandbox_ZomboidForge_zomboidChance = "Zomboids 스폰 비율",
+
+	/* Zomboid Stats */
+	Sandbox_ZF_ZomboidWalktype = "Zomboid 이동 속도",
+	Sandbox_ZF_ZomboidStrength = "Zomboid 근력",
+	Sandbox_ZF_ZomboidToughness = "Zomboid 체력",
+	Sandbox_ZF_ZomboidCognition = "Zomboid 인지 능력",
+	Sandbox_ZF_ZomboidMemory = "Zomboid 기억 능력",
+	Sandbox_ZF_ZomboidVision = "Zomboid 시각 능력",
+	Sandbox_ZF_ZomboidHearing = "Zomboid 청각 능력",
+	Sandbox_ZF_ZomboidHP = "Zomboid 체력 배율",
+}
